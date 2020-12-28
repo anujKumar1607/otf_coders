@@ -114,6 +114,7 @@ $("#removeImage3").click(function(e) {
         phone : {
           required : true,
           number : true,
+          maxlength : 10
         },
         email : {
           required : true,
